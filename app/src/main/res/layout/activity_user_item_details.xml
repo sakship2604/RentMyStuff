@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserItemDetails"
+    android:background="@drawable/background4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/imgItemDetailsImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_action_camera"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txtItemDetailsName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Item's Name"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item's Price : "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item's Details : "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Renter's Name : "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Renter's Email Id : "
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address : "
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City : "
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State : "
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/txtItemPriceDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABC123 "
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/txtItemDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtRenterNameDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mr. ABC"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/txtRenterEmailDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abc@gmail.com "
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:id="@+id/txtRenterAddDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:id="@+id/txtRenterCityDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XYZASD"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+            <TextView
+                android:id="@+id/txtRenterStateDetials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp" />
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextMessage"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
